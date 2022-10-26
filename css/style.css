@@ -5,6 +5,7 @@
     border: solid 1px black;
 }
 
+/* HEADER */
 .topbar {
     margin: 0 auto;
     width: 100%;
@@ -41,8 +42,33 @@
     height: 40px;
 }
 
+/* MAIN */
 .col-33{
     margin: 0 auto;
     width: 33%;
     height: 300px;
 }
+
+
+
+/* Utility -----------------------------------------*/
+.tag-green{
+    background-color: green;
+    width: 80px;
+    height: 20px;
+}
+
+.tag-red {
+    background-color: red;
+    width: 40px;
+    height: 20px; 
+}
+/* Utility -----------------------------------------*/
+
+
+
+.content{
+
+}
+
+.
