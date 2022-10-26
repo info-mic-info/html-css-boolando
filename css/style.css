@@ -46,7 +46,6 @@
 .col-33{
     margin: 0 auto;
     width: 33%;
-    height: 300px;
 }
 
 
@@ -56,13 +55,28 @@
     background-color: green;
     width: 80px;
     height: 20px;
+    position: absolute;
+    top: 0;
 }
 
 .tag-red {
     background-color: red;
     width: 40px;
-    height: 20px; 
+    height: 20px;
+    position: absolute;
+    bottom: 0%;
 }
+
+.heart {
+    text-align: center;
+    width: 15%;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    top: 10px;
+}
+
 /* Utility -----------------------------------------*/
 
 
@@ -72,14 +86,10 @@
     margin: 0 auto;
 }
 
-.content img {
+.content .img-card {
 width: 100%;
+position: relative;
 }
 
-.heart {
-    text-align: center;
-    width: 15%;
-    font-size: 30px;
-    background-color: white;
-}
+
 
