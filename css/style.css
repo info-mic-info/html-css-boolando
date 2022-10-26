@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 /* HEADER */
@@ -10,7 +10,7 @@
     margin: 0 auto;
     width: 100%;
     height: 200px;
-    background-color:;
+    background-color: orange;
 
 }
 
@@ -18,7 +18,6 @@
     margin: 0 auto;
     width: 100%;
     height: 700px;
-    background-color: lightblue;
 }
 
 .row {
@@ -26,24 +25,22 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: orange;
 }
 
 .col-25 {
     margin: 0 auto;
     width: 25%;
-    background-color:;
+    background-color: ;
     height: 40px;
 }
 
 .col-50 {
     margin: 0 auto;
     width: 50%;
-    height: 40px;
 }
 
 /* MAIN */
-.col-33{
+.col-33 {
     margin: 0 auto;
     width: 33%;
 }
@@ -51,12 +48,12 @@
 
 
 /* Utility -----------------------------------------*/
-.tag-green{
+.tag-green {
     background-color: green;
-    width: 80px;
+    width: 150px;
     height: 20px;
     position: absolute;
-    top: 0;
+    bottom: 30px;
 }
 
 .tag-red {
@@ -64,7 +61,7 @@
     width: 40px;
     height: 20px;
     position: absolute;
-    bottom: 0%;
+    bottom: 30px;
 }
 
 .heart {
@@ -81,15 +78,15 @@
 
 
 
-.content{
+.content {
     width: 100%;
     margin: 0 auto;
 }
 
-.content .img-card {
-width: 100%;
-position: relative;
+.content img {
+    width: 100%;
 }
 
-
-
+.img-card {
+    position: relative;
+}
