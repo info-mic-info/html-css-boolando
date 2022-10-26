@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 /* HEADER */
@@ -18,8 +18,7 @@ header{
     margin: 0 auto;
     width: 100%;
     background-color: orange;
-    
-    
+   padding: 20px;  
 }
 
 
@@ -62,6 +61,11 @@ li{
     display: flex;
 }
 
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* MAIN */
 .col-33 {
     margin: 0 auto;
@@ -74,8 +78,9 @@ li{
 }
 
 .section-1{
-    margin: 10%;
-    
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 
@@ -87,12 +92,23 @@ li{
     height: 20px;
     position: absolute;
     bottom: 30px;
+    left: 50px;
     color: white;
     right: 30%;
-   
-
-
+    text-align: center;
 }
+
+
+.only-tag-green  {
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+}
+
+
 
 .tag-red {
     background-color: red;
@@ -112,6 +128,12 @@ li{
     position: absolute;
     right: 0%;
     top: 10px;
+}
+
+i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
 }
 
 .overlay{
@@ -159,3 +181,12 @@ footer h6,h3 {
     color: white;
     padding: 5px;
 }
+
+.social {
+    margin-right: 0;
+    text-align: right;
+    margin-right: 40px;
+
+}
+
+h4 
